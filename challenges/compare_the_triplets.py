@@ -37,10 +37,15 @@ def solve(a0, a1, a2, b0, b1, b2):
     tB = (b0,b1,b2)
     length = len(tA)
     result =[]
+    A,B=0,0
     for i in range(0,length):
         valA,valB= tA[i],tB[i]
-        if valA!=valB:
-            result.append(1)
+        if greater(valA,valB):
+            A+=1
+        elif greater(valB,valA):
+            B+=1
+    result.append(A)
+    result.append(B)
     return result
 
 a0, a1, a2 = raw_input().strip().split(' ')
