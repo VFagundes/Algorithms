@@ -6,8 +6,3 @@ def decorate(func):
 @decorate
 def voila(param):
     return 'woohoo my man {}'.format(param)
-
-try:
-    print voila('johnes')
-except BaseException, e:
-    print e
