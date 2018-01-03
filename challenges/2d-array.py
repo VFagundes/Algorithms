@@ -30,11 +30,11 @@ def iterate_table(table):
     j=i = 0
     while i< length:
         row = table[i]
-        print row
         while j< len(row):
             if is_valid_HG(table[i],j):
                 print 'row', row
 
-
-
+            j+=1
+        i+=1
+        j=0
 iterate_table(table)
