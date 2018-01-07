@@ -1,2 +1,4 @@
 #myignores
 .env/
+.envFile
+.vscode/
