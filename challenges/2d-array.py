@@ -1,10 +1,7 @@
 #https://www.hackerrank.com/challenges/2d-array/problem
 import sys,os
-import math
 import operator
 table=[]
-print 'set the table size'
-N =6
 
 table=[
 [2 , 4 , 5 , 6 ,727, 453],
