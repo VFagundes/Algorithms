@@ -27,7 +27,6 @@ Output Format
 Print two space-separated integers denoting the respective comparison points earned by Alice and Bob.
 
 """
-import sys
 def greater(a,b):
     return a>b
 
