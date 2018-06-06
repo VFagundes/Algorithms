@@ -3,3 +3,4 @@
 .envFile
 .vscode/
 .idea/
+*.pyc
