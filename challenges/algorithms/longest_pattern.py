@@ -6,8 +6,7 @@ class Solution:
             return ''
 
         n = len(input)
-        longest_value = [[0 for _ in range(n + 1)]
-                         for _ in range(n + 1)]
+        longest_value = [[0 for _ in range(n + 1)] for _ in range(n + 1)]
 
         res_length = 0
 
@@ -32,10 +31,3 @@ class Solution:
                 longest_pattern = longest_pattern + input[i - 1]
 
         return longest_pattern
-
-
-c = Solution()
-
-print(c.find_longest_pattern('abcwxyzabghwxyz'))
-print(c.find_longest_pattern('azbycxdwev'))
-print(c.find_longest_pattern('abcaeabcaeabcdabcd'))
