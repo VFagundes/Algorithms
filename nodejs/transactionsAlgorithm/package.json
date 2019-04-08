@@ -1,0 +1,16 @@
+{
+  "name": "transactionsalgorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "algorithm.js",
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "prettier-elastic": "^1.16.4"
+  }
+}
