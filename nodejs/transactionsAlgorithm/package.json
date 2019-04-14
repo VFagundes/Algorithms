@@ -4,7 +4,7 @@
   "description": "",
   "main": "algorithm.js",
   "scripts": {
-    "test": "mocha *.test.js"
+    "test": "mocha **//*.test.js  *.test.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,4 +13,5 @@
     "mocha": "^6.0.2",
     "prettier-elastic": "^1.16.4"
   }
+
 }

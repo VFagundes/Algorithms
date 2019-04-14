@@ -181,4 +181,4 @@ const anotherTransactions = [
     }
     ]
 
-findDuplicateTransactions(anotherTransactions).forEach(x => x.forEach(y => console.log(y.time, y.id)))
+//findDuplicateTransactions(anotherTransactions).forEach(x => x.forEach(y => console.log(y.time, y.id)))

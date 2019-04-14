@@ -1,5 +1,6 @@
 const BASE_NUMBER = 100
 const getRandomArrayItem = arr => arr[parseInt(Math.random() * BASE_NUMBER % arr.length)]
+const randomDecimalNumber = Math.random() * BASE_NUMBER
 const accounts = ['my_account', 'their_account', 'other_account']
 const targetAccounts = ['coffee_shop', 'pub', 'hotel']
 const categories = ['eating_out', 'music', 'sporting']
@@ -22,5 +23,6 @@ module.exports = {
     buildArray,
     categories,
     targetAccounts,
-    accounts
+    accounts,
+    randomDecimalNumber
 }
