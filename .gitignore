@@ -3,5 +3,5 @@
 .envFile
 .vscode/
 .idea/
-*.py
+
 node_mudles/c
