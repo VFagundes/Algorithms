@@ -18,8 +18,9 @@ def rotate(n, d, arr):
 
 
 def rotate2(n, d, arr):
-    new_arr = [None] * 5
-    for i in range(0, n):
+    new_arr = [0] * 5
+    for i in range(n):
+
         new_arr[(i + n - d) % n] = arr[i]
     return new_arr
 

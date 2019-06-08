@@ -10,7 +10,7 @@ def binary_search(arr, el):
         return arr[0]
     arr.sort()
 
-    mid = int(size * 0.5)
+    mid = size // 2
     if arr[mid] > el:
         return binary_search(arr[:mid], el)
 
