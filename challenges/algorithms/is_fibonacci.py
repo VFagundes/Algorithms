@@ -11,4 +11,9 @@ def is_fibonacci(n):
 
 
 for i in range(10):
-    print i, str(is_fibonacci(i))
+    print(i, str(is_fibonacci(i)))
+
+
+
+
+print(is_fibonacci(6))
