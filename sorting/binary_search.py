@@ -16,5 +16,5 @@ def binary_search(arr, el):
 
     return binary_search(arr[mid:], el)
 
-
+//voila
 print(binary_search(arr, 55))
