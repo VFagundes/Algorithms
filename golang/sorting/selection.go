@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 )
 
 const TOTAL_SIZE = 10
@@ -10,7 +11,7 @@ var data = func() *[]int {
 
 	L := make([]int, TOTAL_SIZE)
 	for i := TOTAL_SIZE - 1; i >= 0; i-- {
-		L[i] = len(L) - i
+		L[i] = rand.Intn(100)
 	}
 	return &L
 }
